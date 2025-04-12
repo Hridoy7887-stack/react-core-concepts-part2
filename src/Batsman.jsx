@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useActionState, useState } from "react";
 
 export default function Batsman() {
     const [runs, setRuns] =useState(0);
